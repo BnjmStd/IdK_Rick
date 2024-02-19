@@ -1,0 +1,47 @@
+body, html {
+    box-sizing: border-box;
+    padding: 2rem;
+    scrollbar-color: #95efcf #333;
+    scrollbar-width: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: #95efcf;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    color: #95efcf;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.nav a:first-child {
+    margin-left: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding-top: 80px; 
+}
+
+
