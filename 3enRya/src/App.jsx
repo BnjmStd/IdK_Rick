@@ -9,7 +9,7 @@ const TURNS = {
 
 
 
-const Square = ({ children, isSelected, updateBoard, index}) => {
+const Square = ({children, isSelected, updateBoard, index}) => {
   
   const className = `square ${isSelected ? 'is-selected' : ''}`
 
@@ -59,7 +59,8 @@ function App() {
           return boardToCheck[a];
       }
 
-    };
+    }
+
     return null;
   };
 
@@ -97,7 +98,7 @@ function App() {
       setWinner(newWinner);
     } else if (checkEndGame(newBoard)){
       setWinner(false);
-    };
+    }
 
 
 
