@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-flow: column wrap;
+
+    margin: 0 auto;
+    place-content: center;
+    width: 800px;
+    gap: 20px;
+}
+
+h1 {
+    align-self: center;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    align-self: center;
+}
+
+button {
+    background: #09f;
+    border-radius: 20px;
+    color: aliceblue;
+    width: 100px;
+    height: 70px;
+    align-self: center;
+}
